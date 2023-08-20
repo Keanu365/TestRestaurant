@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Restaurant</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="top">
+      <img src="images/logo.jpg" alt="logo" id="logo">
+      <button onclick="toggleMenu()">
+        <img src="icons/hamburger-menu.svg" alt="menu" class="menubutton">
+      </button>
+    </div>
+    <nav id="menu" class="hide">
+      <a href="#" class="active">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Blog</a>
+      <a href="#">Services</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Banner -->
+  <section id="banner">
+    <div class="banner_left">
+      <span class="banner_diff">
+        <h1 class="h1_s">My Awesome</h1>
+        <h1 class="h1_p">Restaurant</h1>
+      </span>
+      <h1 class="h1_s">Website</h1>
+      <h3>Johnny johnny yes papa eating sugar no papa telling lies no papa open your mouth hahaha</h3>
+      <div class="banner_btn">
+        <button class="btn btn_p">Read More</button>
+      <button class="btn btn_s">Shop Now</button>
+      </div>
+    </div>
+    <img src="images/straw.png" alt="strawberry-pic" class="banner_img">
+  </section>
+
+  <!-- Products -->
+  <section id="product">
+    <div class="products">
+      <div class="each_product">
+        <img src="images/plate-1.png" alt="Salad1" class="product_pic">
+        <h2>Keanu Salad</h2>
+        <p>$69</p>
+        <button class="add_to_cart">
+          <img src="icons/cart.svg" alt="cart">
+          <p>Add to Cart</p>
+        </button>
+      </div>
+      <div class="each_product">
+        <img src="images/plate-2.png" alt="Salad2" class="product_pic">
+        <h2>Phone Tayzar Salad</h2>
+        <p>$69</p>
+        <button class="add_to_cart">
+          <img src="icons/cart.svg" alt="cart">
+          <p>Add to Cart</p>
+        </button>
+      </div>
+      <div class="each_product">
+        <img src="images/plate-3.png" alt="Salad3" class="product_pic">
+        <h2>Thinn Kyar Salad</h2>
+        <p>$69</p>
+        <button class="add_to_cart">
+          <img src="icons/cart.svg" alt="cart">
+          <p>Add to Cart</p>
+        </button>
+        
+      </div>
+    </div>
+    <button class="btn btn_s prod-btn">View More</button>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <section class="freshabout">
+      <h3>About Fresh Meal</h3>
+    <img src="icons/hr.svg" alt="">
+    <p> Lorem ipsum lorem ipsum ipsum lorem impsum lorem Lorem ipsum lorem ipsum ipsum lorem impsum loremLorem ipsum lorem ipsum ipsum lorem impsum loremLorem ipsum lorem ipsum ipsum lorem impsum lorem</p>
+    </section>
+    <section class="freshabout">
+      <div>
+        <img src="images/yogurt.png" alt="yoghurt">
+      </div>
+      <div>
+        <h3>Freshmeal is good.</h3>
+        <p>Happi happi</p>
+        <button class="btn btn_p">Read More</button>
+      </div>
+    </section>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="contactlinks">
+      <h2> Contact Us! </h2>
+      <img src="icons/hr.svg" alt="">
+      <div class="linkflex">
+        <div class="links">
+        <img src="icons/phone.svg" alt="phone">
+        <div class="linktext">
+          <p> Call us: </p>
+          <p> +65 8859 0933 </p>
+        </div>
+      </div>
+      <div class="links">
+        <img src="icons/mail.svg" alt="mail">
+        <div class="linktext">
+          <p> E-Mail: </p>
+          <p> mgkeanu@gmail.com </p>
+        </div>
+      </div>
+      <div class="links">
+        <img src="icons/clock.svg" alt="clock">
+        <div class="linktext">
+          <p> Working Hours: </p>
+          <p> Mon - Sat (except public holidays)</p>
+          <p> 9 am to 10 pm </p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.605436642909!2d-74.22308997396792!3d22.443871887674714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8934fd7dadab6253%3A0x8d40b9fca4d1ff4f!2sRick%20Roll%20Island!5e0!3m2!1sen!2ssg!4v1691844125524!5m2!1sen!2ssg" width="1000" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <footer>
+    <div class="footsect">
+      <h2>About Us</h2>
+      <p> Mary had a little lamb, ching ching bang, no more lamb! Mary had a little lamb, its meat was tasty, no!?</p>
+    </div>
+    <div class="footsect">
+      <h2>Quick Links</h2>
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Products</a>
+      <a href="#">Blog</a>
+      <a href="#">Services</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="footsect">
+      <h2>Follow Us</h2>
+      <div class="follow">
+        <img src="icons/facebook.svg" alt="facebook">
+        <a href="#">Facebook</a>
+      </div>
+      <div class="follow">
+        <img src="icons/instagram.svg" alt="insta">
+        <a href="#">Instagram</a>
+      </div>
+      <div class="follow">
+        <img src="icons/twitter.svg" alt="twit">
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+    <div class="footsect footinsta">
+      <h2>Instagram</h2>
+      <img src="images/food-table.jpg" alt="food">
+      <img src="images/food-table.jpg" alt="food">
+      <img src="images/food-table.jpg" alt="food">
+    </div>
+  </footer>
+  <p> © 2023 Freshmeal, Thet Paing Min. All rights reserved.</p>
+</body>
+<script src="scripts.js"></script>
+</html>
